@@ -23,8 +23,8 @@ Please check the API docs for further details (linked in the github description)
 ## http component
 
 ```nim
-require asyncdispatch
-require pusher/http
+import asyncdispatch
+import pusher/http
 
 let p = newAsyncPusherHttp(123, "key", "secret")
 
